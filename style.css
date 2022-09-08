@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container h1 {
+    color: blanchedalmond;
+}
+h1 {
+    color: #FF0000;
+}
+.h1class {
+    color: blueviolet;
+}
+#h1-id {
+    color: #FF0000;
+}
+li {
+    color:#FF0000;
+}
+.li3 {
+    color:blue !important;
+}
+#punkt3 {
+    color: green;
+}
+.zadanie2 {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 10px 0px 0px 10px;
+    box-sizing: border-box; 
+  }
+  .zadanie3 {
+    float: left;
+  }
+  #kolko {
+    margin: 35% auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: yellow;
+
+  }
