@@ -1,0 +1,104 @@
+<style>
+        html {
+            font-size: 62.5%;
+            /* 10px */
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+        }
+
+        section {
+            /* here you can cut off the red area */
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            background: lightgreen;
+            overflow: hidden;
+        }
+
+        .percent {
+            display: inherit;
+            gap: inherit;
+            width: 500px;
+            height: 120px;
+        }
+
+        .category {
+            display: inline-flex;
+            padding: 50px;
+            gap: 50px;
+            border: none;
+        }
+
+        img {
+            border: 1px solid black;
+            box-sizing: border-box;
+            width: 100%;
+            height: 100%;
+        }
+
+        .pixel-banana {
+            width: 15rem;
+            height: 10rem;
+        }
+
+        .pixel-banana-to-match {
+            /* fill the width and height with pixels */
+            width: 240px;
+            height: 160px;
+        }
+
+        .rem-banana {
+            width: 175px;
+            height: 125px;
+        }
+
+        .rem-banana-to-match {
+            /* fill the width and height with rems */
+            width: 17.5rem;
+            height: 12.5rem;
+        }
+
+        .em {
+            display: inherit;
+            gap: inherit;
+            font-size: 2rem;
+        }
+
+        .em-banana {
+            width: 240px;
+            height: 180px;
+        }
+
+        .em-banana-to-match {
+            /* fill the width and height with ems */
+            width: 25px;
+            height: 15px;
+        }
+
+        .percent-banana {
+            width: 100px;
+            height: 60px;
+        }
+
+        .percent-banana-to-match {
+            /* fill the width and height with percents */
+            width: 25px;
+            height: 15px;
+        }
+
+        .footer-to-cut {
+            margin-bottom: 0;
+            height: 100px;
+            background-color: lightcoral;
+        }
+    </style>
